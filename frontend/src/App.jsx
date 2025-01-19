@@ -2,8 +2,8 @@ import { Navigate, Route,Routes } from "react-router-dom"
 import HomePage from "./pages/home/HomePage.jsx"
 import SignUpPage from './pages/auth/signup/SignUpPage.jsx'
 import LoginPage from './pages/auth/login/LoginPage.jsx'
-import Sidebar from "./components/Common/Sidebar.jsx"
-import RightPanel from "./components/Common/RightPanel.jsx"
+import Sidebar from "./components/common/Sidebar.jsx"
+import RightPanel from "./components/common/RightPanel.jsx"
 import NotificationPage from "./pages/notification/NotificationPage.jsx"
 import ProfilePage from "./pages/Profile/ProfilePage.jsx"
 import {Toaster} from 'react-hot-toast'
