@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import LoadingSpinner from "../../components/Common/LoadingSpinner";
+import LoadingSpinner from "../../components/common/LoadingSpinner.jsx";
 import {toast} from "react-hot-toast"
 import { useQuery,useMutation, useQueryClient } from "@tanstack/react-query";
 import { IoSettingsOutline } from "react-icons/io5";
