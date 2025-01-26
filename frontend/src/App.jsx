@@ -8,7 +8,7 @@ import NotificationPage from "./pages/notification/NotificationPage.jsx"
 import ProfilePage from "./pages/Profile/ProfilePage.jsx"
 import {Toaster} from 'react-hot-toast'
 import { useQuery } from "@tanstack/react-query"
-import LoadingSpinner from "./components/Common/LoadingSpinner.jsx"
+import LoadingSpinner from "./components/common/LoadingSpinner.jsx"
 
 function App() {
   const {data:authUser,isLoading}=useQuery({
